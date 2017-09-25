@@ -1,0 +1,20 @@
+//variables
+$breakpoint-mobile: 767px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+//mixin
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media screen and(min-width: $breakpoint-desktop) { @content ; }
+  }
+    @else if $point == tablet {
+     @media screen and(min-width: $breakpoint-tablet) { @content ; }
+  }
+ 
+  @else if $point == mobile {
+     @media screen and(max-width: $breakpoint-mobile)  { @content ; }
+
+  }
+}
+
