@@ -1,0 +1,102 @@
+.label{
+
+	&--hero{
+		@include fontSize(24,28,18);
+		color:$white;
+		border:3px solid $white;
+		display:inline-block;
+		padding:1.2rem 1.2rem;
+		letter-spacing: 0.05em;
+
+		
+		@include breakpoint(desktop){
+			padding:1.2rem 1.2rem;
+			letter-spacing: 0.05em;
+		}
+	}
+
+	&--underline{
+		@include fontSize(32,26,32);
+		font-family: 'Playfair Display', serif;
+		font-weight:700;
+		letter-spacing: 0.05em;
+		color:$gray;
+		display: inline-block;
+		border-bottom: 1px solid $gray;
+		margin-top: 6rem;
+		padding-bottom: 2rem;
+
+		@include breakpoint(desktop){
+			padding-bottom: 2rem;
+			margin-top: 12rem;
+		}
+	}
+
+	&--blank{
+		@include fontSize(22,16,18);
+		font-family: 'Lato', sans-serif;
+		letter-spacing: 0.02em;
+		color:$gray;
+		font-weight: 700;
+		
+		@include breakpoint(desktop){
+			letter-spacing: 0.02em;
+			color:$gray;	
+		}
+	}
+
+	&--full-border{
+		@include fontSize(28,26,23);
+		font-family: 'Playfair Display', serif;
+		font-weight:700;
+		letter-spacing: 0.15em;
+		color:$red;
+		display: inline-block;
+		border: 2px solid $red;
+		padding:1rem 2.5rem;
+		margin-bottom: 3rem;
+
+		@include breakpoint(desktop){
+			padding:1rem 3rem;
+			margin-bottom: 2rem;
+		}
+	}
+
+	&--full-color{
+		display:block;
+		background-color: $red;
+		color:$white;
+		width:95%;
+		margin:0 auto;
+		padding:0 1.5rem;
+		@include fontSize(30,26,22);
+		font-family: 'Playfair Display', serif;
+		font-weight:700;
+		margin-bottom: 2.5rem;
+		letter-spacing: 0.25em;
+
+		@include breakpoint(desktop){
+			margin:0 auto;
+			padding:0 1.5rem;
+			margin-bottom: 2.5rem;
+			width:60%;
+		}
+	}
+
+	&--bold{
+		@include fontSize(30,26,30);
+		font-family: 'Playfair Display', serif;
+		font-weight:900;
+		letter-spacing: 0.025em;
+		color:$gray;
+		display: inline-block;
+		border: 8px solid $red;
+		padding:1.5rem 2.5rem;
+		margin-top: 6.5rem;
+
+		@include breakpoint(desktop){
+			padding:1.5rem 3.5rem;
+			margin-top: 4rem;
+		}
+	}
+}

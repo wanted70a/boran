@@ -11,13 +11,40 @@
 }
 
 
-.float--left{
-	float:left;
+.float-l{
+	float:none;
+
+  @include breakpoint(desktop){
+   float:left;
+  }
 }
 
-.float--right{
-	float:right;
+.float-r{
+	float:none;
+
+  @include breakpoint(desktop){
+    float:right;
+  }
 }
+
+.r{
+  
+  @include breakpoint(desktop){
+    right:0;
+  }
+}
+
+.l{
+  
+  @include breakpoint(desktop){
+    left:0;
+  }
+}
+
+
+
+
+
 
 
 

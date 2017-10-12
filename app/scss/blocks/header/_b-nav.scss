@@ -1,0 +1,145 @@
+.nav{
+	margin:0 auto;
+	background-color:rgba(0,0,0,1);
+	color:$white;
+	//height: $header-height-mobile;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+	padding:2rem 0;
+	padding-left:2rem;
+
+	@include breakpoint(desktop){
+		height: $header-height-desktop;
+		padding:0 15%;
+		padding-top:2rem;
+		background-color:rgba(0, 0, 0, 0.95);
+	}
+
+	.logo{
+		
+		display:block;
+		float:none;
+		position:relative;
+
+		@include breakpoint(desktop){
+			float:left;
+			left:auto;
+			top:auto;
+		}
+
+		img{
+			max-width: 50%;
+			@include breakpoint(desktop){
+				max-width: 100%;
+			}
+		}
+	}
+
+	.navigacija{
+		display: none;
+		@include breakpoint(desktop){
+			display: block;
+		}
+	}
+
+	.links{
+		
+		&.links--nav{
+			
+			list-style-type: none;
+			display: block;
+			padding-top:2rem;
+			margin-bottom:2rem;
+
+			@include breakpoint(desktop){
+				margin-left:9.5rem;
+				padding-top:0rem;
+				margin-bottom:0rem;
+				float:left;
+			}
+
+			li{
+
+				@include breakpoint(desktop){
+					display: inline-block;
+							
+				}
+			}
+
+			.link{
+				@include fontSize(32,22,14);
+				font-family: 'Roboto Slab', serif;
+				letter-spacing:0.02em;
+				transition: all 0.3s ease;
+				margin-right:0rem;
+				display:block;
+				margin-bottom:4rem;
+				
+				@include breakpoint(desktop){
+					line-height:calculateRem(50);
+					margin-right:3.1rem;
+					margin-bottom:0rem;
+
+				}
+
+				&--last{
+					margin-bottom:4rem;	
+					@include breakpoint(desktop){
+						margin-right:0rem;
+						
+					}
+				}
+
+				&--active{
+					color:$red;
+				}
+
+				&:hover{
+					color:$red;
+				}					
+			}
+		}
+
+		&.links--social{
+			
+			@include fontSize(36,22,22);
+			display: block;
+			margin-bottom:2rem;
+
+			@include breakpoint(desktop){
+				line-height:calculateRem(50);
+				float:right;
+				margin-bottom:0;
+			}
+
+			i{
+				transition: all 0.3s ease;
+				cursor: pointer;
+				margin-right:3.5rem;
+
+				@include breakpoint(desktop){
+					margin-left:2rem;
+					margin-right:0;
+				}
+
+				&:hover{
+					color:$red;
+				}
+			}
+		}
+	}
+
+	.burger{
+		@include fontSize(50,32,22);
+		position: absolute;
+		right:2rem;
+		top:3rem;
+
+		@include breakpoint(desktop){
+			display: none;
+		}
+	}
+}
+

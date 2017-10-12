@@ -1,0 +1,147 @@
+.mo-cena{
+	margin-bottom: 3.5rem;
+
+	@include breakpoint(desktop){
+		border:3px solid $white;
+		margin-bottom: 8rem;
+	}
+
+	&--img{
+
+		img{
+			max-width: none;
+			width:100%;
+		}
+	}
+
+	&--body-wrap{
+		background-color: $white;
+		height: calculateRem(250);
+		padding-top:2.5rem;
+		
+		@include breakpoint(desktop){
+			height: calculateRem(190);
+			padding-top:2rem;
+		}
+
+		.mo-cena-body{
+			margin:0 auto;
+			width:84%;
+			border-left:4px solid $red;
+			padding-left: 5%;
+			padding-right: 6%;
+
+			@include breakpoint(desktop){
+				width:85%;
+				padding-left: 5%;
+				padding-right: 6%;
+				border-left:6px solid $red;
+			}
+
+			.pricing{
+				
+				@include breakpoint(desktop){
+			
+				}
+
+				.heading{
+					float:left;
+					@include fontSize(12,20,10);
+					color:#cdcdcd;
+
+					span{
+						@include fontSize(42,34,34);
+						color:$red;
+						font-weight: 900;
+						display: block;
+						letter-spacing: 0.04em;
+					}
+				}
+
+				.price-table{
+					float:right;
+
+					.termini{
+						float:right;
+						@include fontSize(14,12,12);
+						//color: $gray;
+						color: $black;	
+						padding-right:1.5rem;
+						font-weight:300;
+						line-height: calculateRem(14);
+
+						@include breakpoint(desktop){
+							padding-right:1rem;
+							line-height: calculateRem(12);
+						}
+
+						span{
+							@include fontSize(20,18,18);
+							color:$red;
+							display: block;
+							font-weight:400;
+							margin-bottom: 0.8rem;
+
+						}
+					}
+
+					.montly-price{
+						float:right;
+						
+						border-left:6px solid #eaeaea;
+						padding-left:1.5rem;
+						line-height: calculateRem(32);
+
+						@include breakpoint(desktop){
+							border-left:8px solid #eaeaea;
+							padding-left:1rem;
+						}
+
+						@include fontSize(44,38,38);
+							color:$red;
+							font-weight:300;
+
+						span{
+							@include fontSize(14,12,12);
+							//color: $gray;
+							color: $black;	
+							display: block;
+							line-height: calculateRem(22);
+							@include breakpoint(desktop){
+								line-height: calculateRem(12);
+							}
+						}
+					}
+				}
+
+				&:after{
+					content: '';
+					height: 1px;
+					display: block;
+					background-color:#eaeaea;
+					top:2rem;
+					position: relative;
+				}
+		}
+
+			.price-description{
+				margin-top: 3.6rem;
+				@include fontSize(22,14,14);
+				color: $black;
+				display: block;
+				line-height: calculateRem(30);
+				
+				@include breakpoint(desktop){
+					line-height: calculateRem(17);
+				}
+			}
+		}
+	}
+
+	&--premium{
+		@include breakpoint(desktop){
+			border:3px solid $red;
+		}
+		
+	}
+}

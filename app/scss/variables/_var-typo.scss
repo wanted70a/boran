@@ -5,9 +5,45 @@ html {
   @include fontSizeVw($font-size-base, $font-size-base, $font-size-base);
 }
 
-@font-face {
-    font-family: Airways;
-    src: url('../assets/fonts/Airways.woff');
+.italic {
+	font-style: italic;
+}
+
+
+.title{
+
+	font-family: 'Playfair Display', serif;
+	@include fontSize(38,20,46)
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 0.12em;
+	margin-bottom: 8rem;
+
+	@include breakpoint(desktop){
+		letter-spacing: 0.12em;
+		margin-bottom: 6rem;
+	}
+
+	&--white{
+		color:$white;
+	}
+
+	&--black{
+		color:$black;
+	}
+
+	span{
+		@include fontSize(32,20,60)
+		color:$red;
+		font-family: 'Roboto';
+		font-weight:900;
+		letter-spacing: 0.12em;
+
+		@include breakpoint(desktop){
+		letter-spacing: 0.12em;
+
+		}
+	}
 }
 
 

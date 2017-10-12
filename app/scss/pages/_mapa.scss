@@ -1,0 +1,14 @@
+#map{
+
+    height: 500px;
+
+    @include breakpoint(desktop){
+		  height: 650px;
+	}
+
+}   
+
+
+
+
+    

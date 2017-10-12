@@ -1,0 +1,119 @@
+.mo-trener{
+	position: relative;
+	display:block;
+
+	margin-bottom:3.5rem;
+	
+	@include breakpoint(desktop){
+		//margin-bottom: 8rem;
+		//height:480px;
+		margin-bottom: 15rem;
+	}
+
+	img{
+		max-width:none;
+		height: auto;
+		width: 100%;
+
+		@include breakpoint(desktop){
+			max-width:none;
+			height:480px;
+			width:480px;
+		}
+	}
+
+	&-title{
+		color:$red;
+		@include fontSize(42,28,38);
+		font-family: 'Playfair Display', serif;
+		font-weight:700;
+		margin-bottom:5rem;
+
+		@include breakpoint(desktop){
+			margin-bottom:2.5rem;
+		}
+	}
+
+	.position{
+		color:$red;
+		@include fontSize(20,16,16);
+		font-weight:700;
+		display: block;
+		margin-top:1.5rem;
+
+		@include breakpoint(desktop){
+			margin-top:1.5rem;
+		}
+	}
+
+	.body{
+		
+		background-color:#f3f3f3;
+		width:100%;
+		padding:0 4rem;
+		padding-top:5rem;
+		padding-bottom:10rem;
+		display: block;
+		position: relative;
+
+		@include breakpoint(desktop){
+			padding:6rem 4rem;
+			position: absolute;
+			//height:450px;
+			//top:15px;
+			top:0;
+			right:0;
+			width:calc(100% - 420px);
+		}
+	}
+
+	.description{
+		border-left: 3px solid $red;
+		padding-left:4rem;
+		@include fontSize(22,14,14);
+		line-height: calculateRem(30);
+
+		@include breakpoint(desktop){
+			line-height: calculateRem(17);
+			padding-left:2.2rem;
+		}
+
+		p{
+			margin-bottom: 2rem;
+			@include breakpoint(desktop){
+				margin-bottom: 1.2rem;
+			}
+		}
+	}
+
+	.trener-contact{
+		position: absolute;
+		top:auto;
+		right:auto;
+		bottom:2rem;
+		left:7rem;
+		@include fontSize(28,26,24);
+		
+		@include breakpoint(desktop){
+			top:3.7rem;
+			right:4.5rem;
+			bottom:auto;
+			left:auto;
+		}
+
+		i{
+			margin-left: 2.2rem;
+			transition: all 0.3s ease;
+			color:#646464;
+
+			&:hover{
+				color:$red;
+			}
+
+			@include breakpoint(desktop){
+				margin-left: 1.5rem;	
+			}
+
+		}
+	}
+}

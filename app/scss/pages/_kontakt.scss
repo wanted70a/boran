@@ -1,0 +1,74 @@
+#kontakt{
+	padding-bottom:5rem;
+	@include fontSize(22,14,14);
+	line-height: calculateRem(30);
+	color: white;
+
+	@include breakpoint(desktop){
+		line-height: calculateRem(17);
+	}
+	
+	.kontakt-info{
+		padding-left:6rem;
+		border-left: 3px solid $red;
+
+		@include breakpoint(desktop){
+			padding-left:3rem;
+		}
+
+		.kontakt-tip{
+			@include fontSize(22,14,14);
+			color:$red;
+			display:block;
+			margin-bottom:0.5rem;
+		}
+
+		.kontakt-data{
+			@include fontSize(28,14,20);
+			color:$white;
+		}
+
+		li{
+			margin-bottom: 1rem;
+		}
+
+	}
+
+	.kontakt-description{
+		
+		display: flex;
+		flex-flow: row nowrap;
+ 		align-items: center;
+		@include breakpoint(desktop){
+
+		}
+
+		.body{
+			color: white;
+			
+			@include breakpoint(desktop){
+
+			}
+		}
+
+		img{
+			align-self: flex-start;
+			margin-right: 3rem;
+		}
+	}
+
+	.inner{
+		@include breakpoint(desktop){
+
+		}
+		padding:0 4rem;
+	}
+
+	.col-01{
+		margin-bottom: 8rem;
+		
+		@include breakpoint(desktop){
+			margin: 0;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.start{
+
+	.section-title{
+		text-align: center;
+		padding:5rem 0;
+		background-color: $red;
+		color:$white;
+		@include fontSize(49.5,20,49.5);
+		font-family:'Playfair Display', serif;
+
+		@include breakpoint(desktop){
+			padding:3.5rem 0;
+			letter-spacing: 0.05em;
+		}
+
+		span{
+			font-weight:700;
+		}
+	}
+}
