@@ -18,10 +18,16 @@ html {
 	text-align: center;
 	letter-spacing: 0.12em;
 	margin-bottom: 8rem;
+	line-height:3.8rem;
+
+	@include breakpoint(tablet){
+		line-height:2rem;
+	}
 
 	@include breakpoint(desktop){
 		letter-spacing: 0.12em;
 		margin-bottom: 6rem;
+		line-height:4.6rem;
 	}
 
 	&--white{
@@ -33,7 +39,7 @@ html {
 	}
 
 	span{
-		@include fontSize(32,20,60)
+		@include fontSize(28,20,45)
 		color:$red;
 		font-family: 'Roboto';
 		font-weight:900;

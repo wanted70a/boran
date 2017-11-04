@@ -76,6 +76,7 @@
 				margin-right:0rem;
 				display:block;
 				margin-bottom:4rem;
+				font-weight: 700;
 				
 				@include breakpoint(desktop){
 					line-height:calculateRem(50);

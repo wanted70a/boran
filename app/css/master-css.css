@@ -185,7 +185,8 @@ html {
   font-weight: 900;
   text-align: center;
   letter-spacing: 0.12em;
-  margin-bottom: 8rem; }
+  margin-bottom: 8rem;
+  line-height: 3.8rem; }
   @media screen and (max-width: 767px) {
     .title {
       font-size: 3.8rem; } }
@@ -195,10 +196,14 @@ html {
   @media screen and (min-width: 1024px) {
     .title {
       font-size: 4.6rem; } }
+  @media screen and (min-width: 768px) {
+    .title {
+      line-height: 2rem; } }
   @media screen and (min-width: 1024px) {
     .title {
       letter-spacing: 0.12em;
-      margin-bottom: 6rem; } }
+      margin-bottom: 6rem;
+      line-height: 4.6rem; } }
   .title--white {
     color: #ffffff; }
   .title--black {
@@ -210,13 +215,13 @@ html {
     letter-spacing: 0.12em; }
     @media screen and (max-width: 767px) {
       .title span {
-        font-size: 3.2rem; } }
+        font-size: 2.8rem; } }
     @media screen and (min-width: 768px) {
       .title span {
         font-size: 2rem; } }
     @media screen and (min-width: 1024px) {
       .title span {
-        font-size: 6rem; } }
+        font-size: 4.5rem; } }
     @media screen and (min-width: 1024px) {
       .title span {
         letter-spacing: 0.12em; } }
@@ -374,7 +379,8 @@ body {
       transition: all 0.3s ease;
       margin-right: 0rem;
       display: block;
-      margin-bottom: 4rem; }
+      margin-bottom: 4rem;
+      font-weight: 700; }
       @media screen and (max-width: 767px) {
         .nav .links.links--nav .link {
           font-size: 3.2rem; } }
@@ -448,7 +454,6 @@ body {
     width: 100%; }
   .hero-content {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
     height: 70%;
     margin: auto;
     top: 15%;
@@ -775,17 +780,17 @@ body {
     line-height: 3.2rem; }
     @media screen and (max-width: 767px) {
       .mo-saradnja .saradnja-text {
-        font-size: 2.2rem; } }
+        font-size: 2.4rem; } }
     @media screen and (min-width: 768px) {
       .mo-saradnja .saradnja-text {
         font-size: 1.4rem; } }
     @media screen and (min-width: 1024px) {
       .mo-saradnja .saradnja-text {
-        font-size: 1.4rem; } }
+        font-size: 1.6rem; } }
     @media screen and (min-width: 1024px) {
       .mo-saradnja .saradnja-text {
         line-height: 2rem;
-        width: 75%;
+        width: 77%;
         margin-bottom: 2rem; } }
   .mo-saradnja .saradnja-img {
     position: relative; }
@@ -802,6 +807,12 @@ body {
     width: 26vw;
     height: 26vw;
     left: calc(50% - 13vw); }
+    @media screen and (min-width: 768px) {
+      .mo-saradnja .circle-numerator {
+        width: 15vw;
+        height: 15vw;
+        bottom: -7.5vw;
+        left: calc(50% - 7.5vw); } }
     @media screen and (min-width: 1024px) {
       .mo-saradnja .circle-numerator {
         width: 10vw;
@@ -823,13 +834,15 @@ body {
           font-size: 9.2rem; } }
       @media screen and (min-width: 768px) {
         .mo-saradnja .circle-numerator p {
-          font-size: 2.2rem; } }
+          font-size: 6rem; } }
       @media screen and (min-width: 1024px) {
         .mo-saradnja .circle-numerator p {
           font-size: 9.2rem; } }
+      @media screen and (min-width: 768px) {
+        .mo-saradnja .circle-numerator p {
+          line-height: 15vw; } }
       @media screen and (min-width: 1024px) {
         .mo-saradnja .circle-numerator p {
-          font-weight: 700;
           line-height: 10vw; } }
 
 .c-inline-numerator {
@@ -871,6 +884,11 @@ body {
     @media screen and (min-width: 1024px) {
       .c-inline-numerator .number {
         font-size: 2rem; } }
+    @media screen and (min-width: 768px) {
+      .c-inline-numerator .number {
+        width: 6vw;
+        height: 6vw;
+        line-height: 6vw; } }
     @media screen and (min-width: 1024px) {
       .c-inline-numerator .number {
         width: 2vw;
@@ -1132,7 +1150,7 @@ body {
       .mo-trener .body {
         padding: 6rem 4rem;
         position: absolute;
-        top: 0;
+        top: 15px;
         right: 0;
         width: calc(100% - 420px); } }
   .mo-trener .description {
@@ -1190,7 +1208,8 @@ body {
 
 .start .section-title {
   text-align: center;
-  padding: 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 5.4rem;
   background-color: #ed1e4c;
   color: #ffffff;
   font-family: 'Playfair Display', serif; }
@@ -1199,13 +1218,14 @@ body {
       font-size: 4.95rem; } }
   @media screen and (min-width: 768px) {
     .start .section-title {
-      font-size: 2rem; } }
+      font-size: 3.8rem; } }
   @media screen and (min-width: 1024px) {
     .start .section-title {
       font-size: 4.95rem; } }
   @media screen and (min-width: 1024px) {
     .start .section-title {
-      padding: 3.5rem 0;
+      padding-top: 3.5rem;
+      padding-bottom: 3.9rem;
       letter-spacing: 0.05em; } }
   .start .section-title span {
     font-weight: 700; }
@@ -1220,12 +1240,12 @@ body {
       padding-bottom: 0; } }
   @media screen and (min-width: 1024px) {
     .cenovnik .col-01 {
-      width: 53.7%;
-      padding-right: 8%;
+      width: 46%;
+      margin-right: 8%;
       float: left; } }
   @media screen and (min-width: 1024px) {
     .cenovnik .col-02 {
-      width: 46.3%;
+      width: 46%;
       float: left; } }
 
 .treneri {
