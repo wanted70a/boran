@@ -68,11 +68,11 @@
 						color: $black;	
 						padding-right:1.5rem;
 						font-weight:300;
-						line-height: calculateRem(14);
+						//line-height: calculateRem(14);
 
 						@include breakpoint(desktop){
 							padding-right:1rem;
-							line-height: calculateRem(12);
+							//line-height: calculateRem(12);
 						}
 
 						span{
@@ -88,27 +88,34 @@
 					.montly-price{
 						float:right;
 						
-						border-left:6px solid #eaeaea;
+						border-left:5px solid #eaeaea;
 						padding-left:1.5rem;
-						line-height: calculateRem(32);
+						//line-height: calculateRem(32);
 
 						@include breakpoint(desktop){
-							border-left:8px solid #eaeaea;
+							border-left:6px solid #eaeaea;
 							padding-left:1rem;
+							//line-height: calculateRem(32);
+							
 						}
 
 						@include fontSize(44,38,38);
-							color:$red;
-							font-weight:300;
+						color:$red;
+						font-weight:300;
+
+						p{
+							margin-top:-2px;
+						}
 
 						span{
 							@include fontSize(14,12,12);
 							//color: $gray;
 							color: $black;	
 							display: block;
-							line-height: calculateRem(22);
+							//line-height: calculateRem(22);
 							@include breakpoint(desktop){
-								line-height: calculateRem(12);
+								//line-height: calculateRem(12);
+								margin-top:2px;
 							}
 						}
 					}

@@ -473,6 +473,7 @@ body {
     width: 100%; }
   .hero-content {
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
     height: 70%;
     margin: auto;
     top: 15%;
@@ -491,7 +492,8 @@ body {
         padding-top: 7rem;
         width: 48%;
         height: 70%;
-        margin: auto; } }
+        margin: auto;
+        background-color: transparent; } }
   .hero-title {
     color: #ed1e4c;
     font-family: 'Playfair Display', serif;
@@ -1014,8 +1016,7 @@ body {
           float: right;
           color: #000000;
           padding-right: 1.5rem;
-          font-weight: 300;
-          line-height: 1.4rem; }
+          font-weight: 300; }
           @media screen and (max-width: 767px) {
             .mo-cena--body-wrap .mo-cena-body .pricing .price-table .termini {
               font-size: 1.4rem; } }
@@ -1027,8 +1028,7 @@ body {
               font-size: 1.2rem; } }
           @media screen and (min-width: 1024px) {
             .mo-cena--body-wrap .mo-cena-body .pricing .price-table .termini {
-              padding-right: 1rem;
-              line-height: 1.2rem; } }
+              padding-right: 1rem; } }
           .mo-cena--body-wrap .mo-cena-body .pricing .price-table .termini span {
             color: #ed1e4c;
             display: block;
@@ -1045,14 +1045,13 @@ body {
                 font-size: 1.8rem; } }
         .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price {
           float: right;
-          border-left: 6px solid #eaeaea;
+          border-left: 5px solid #eaeaea;
           padding-left: 1.5rem;
-          line-height: 3.2rem;
           color: #ed1e4c;
           font-weight: 300; }
           @media screen and (min-width: 1024px) {
             .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price {
-              border-left: 8px solid #eaeaea;
+              border-left: 6px solid #eaeaea;
               padding-left: 1rem; } }
           @media screen and (max-width: 767px) {
             .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price {
@@ -1063,10 +1062,11 @@ body {
           @media screen and (min-width: 1024px) {
             .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price {
               font-size: 3.8rem; } }
+          .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price p {
+            margin-top: -2px; }
           .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price span {
             color: #000000;
-            display: block;
-            line-height: 2.2rem; }
+            display: block; }
             @media screen and (max-width: 767px) {
               .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price span {
                 font-size: 1.4rem; } }
@@ -1078,7 +1078,7 @@ body {
                 font-size: 1.2rem; } }
             @media screen and (min-width: 1024px) {
               .mo-cena--body-wrap .mo-cena-body .pricing .price-table .montly-price span {
-                line-height: 1.2rem; } }
+                margin-top: 2px; } }
       .mo-cena--body-wrap .mo-cena-body .pricing:after {
         content: '';
         height: 1px;

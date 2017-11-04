@@ -18,8 +18,8 @@ $(window).load(function(){
 		
 		//SLIDE UP NAVIGACIJE  KAD KLIKNEMO NA MOBILE LINK
 		if($( window ).width() < 1024){
-			
-			$nav.slideUp(300);
+			$burger.toggleClass('fa-bars').toggleClass('fa-times');
+			$nav.toggleClass('drop-down-active');
 		}
 	});
 	
