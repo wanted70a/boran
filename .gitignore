@@ -2,3 +2,4 @@ node_modules/
 .DS_Store
 app/assets/images-no-compress/
 app/assets/tinified/
+app/assets/tinified2/
