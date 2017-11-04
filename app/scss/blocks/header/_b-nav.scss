@@ -38,13 +38,49 @@
 	}
 
 	.navigacija{
-		display: none;
+		display: block;
+		position: fixed;
+		z-index:1;
+		top:9rem;
+		left:30%;
+		right:0;
+		background-color:black;
+		color:white;
+		padding-left:4rem;
+		//margin-top: 9rem;
+		transition: all 0.5s ease;
+		transform:translateX(100%);
+		//opacity: 0;
+
 		@include breakpoint(desktop){
 			display: block;
+			position: static;
+			padding:0;
+			transform:translateX(0);
+			background-color:transparent;	
 		}
+
+		&.drop-down-active{
+			transform:translateY(0);
+			opacity:1;
+		}
+
 	}
 
-	.links{
+	.burger{
+		@include fontSize(50,32,22);
+		position: absolute;
+		right:2rem;
+		top:3rem;
+		transition: all 0.3s ease;
+
+		@include breakpoint(desktop){
+			display: none;
+		}
+	}
+}
+
+.links{
 		
 		&.links--nav{
 			
@@ -75,18 +111,20 @@
 				transition: all 0.3s ease;
 				margin-right:0rem;
 				display:block;
-				margin-bottom:4rem;
+				//margin-bottom:4rem;
 				font-weight: 700;
+				padding:3rem 0;
 				
 				@include breakpoint(desktop){
 					line-height:calculateRem(50);
 					margin-right:3.1rem;
 					margin-bottom:0rem;
+					padding:0;
 
 				}
 
 				&--last{
-					margin-bottom:4rem;	
+					//margin-bottom:4rem;	
 					@include breakpoint(desktop){
 						margin-right:0rem;
 						
@@ -107,7 +145,7 @@
 			
 			@include fontSize(36,22,22);
 			display: block;
-			margin-bottom:2rem;
+			margin-bottom:4rem;
 
 			@include breakpoint(desktop){
 				line-height:calculateRem(50);
@@ -118,11 +156,11 @@
 			i{
 				transition: all 0.3s ease;
 				cursor: pointer;
-				margin-right:3.5rem;
+				padding-right:3.5rem;
 
 				@include breakpoint(desktop){
 					margin-left:2rem;
-					margin-right:0;
+					padding-right:0;
 				}
 
 				&:hover{
@@ -131,16 +169,4 @@
 			}
 		}
 	}
-
-	.burger{
-		@include fontSize(50,32,22);
-		position: absolute;
-		right:2rem;
-		top:3rem;
-
-		@include breakpoint(desktop){
-			display: none;
-		}
-	}
-}
 
