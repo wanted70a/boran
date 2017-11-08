@@ -359,7 +359,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 9rem;
-    left: 30%;
+    left: 55%;
     right: 0;
     background-color: black;
     color: white;
@@ -689,7 +689,7 @@ body {
   letter-spacing: 0.025em;
   color: #4c4c4c;
   display: inline-block;
-  border: 8px solid #ed1e4c;
+  border: 6px solid #ed1e4c;
   padding: 1.5rem 2.5rem;
   margin-top: 6.5rem; }
   @media screen and (max-width: 767px) {
@@ -704,7 +704,8 @@ body {
   @media screen and (min-width: 1024px) {
     .label--bold {
       padding: 1.5rem 3.5rem;
-      margin-top: 4rem; } }
+      margin-top: 4rem;
+      border: 8px solid #ed1e4c; } }
 
 .mo-saradnja {
   position: relative;
@@ -757,7 +758,8 @@ body {
     letter-spacing: 0.09em;
     color: #4c4c4c;
     margin-bottom: 5.5rem;
-    line-height: 5.5rem; }
+    line-height: 5.5rem;
+    text-transform: uppercase; }
     @media screen and (max-width: 767px) {
       .mo-saradnja .saradnja-title {
         font-size: 4.8rem; } }
@@ -974,15 +976,15 @@ body {
         padding-top: 2rem; } }
     .mo-cena--body-wrap .mo-cena-body {
       margin: 0 auto;
-      width: 84%;
+      width: 87%;
       border-left: 4px solid #ed1e4c;
       padding-left: 5%;
-      padding-right: 6%; }
+      padding-right: 5%; }
       @media screen and (min-width: 1024px) {
         .mo-cena--body-wrap .mo-cena-body {
-          width: 85%;
+          width: 87%;
           padding-left: 5%;
-          padding-right: 6%;
+          padding-right: 5%;
           border-left: 6px solid #ed1e4c; } }
       .mo-cena--body-wrap .mo-cena-body .pricing .heading {
         float: left;
@@ -1103,6 +1105,17 @@ body {
         @media screen and (min-width: 1024px) {
           .mo-cena--body-wrap .mo-cena-body .price-description {
             line-height: 1.7rem; } }
+        .mo-cena--body-wrap .mo-cena-body .price-description span {
+          display: block; }
+          @media screen and (max-width: 767px) {
+            .mo-cena--body-wrap .mo-cena-body .price-description span {
+              font-size: 1.2rem; } }
+          @media screen and (min-width: 768px) {
+            .mo-cena--body-wrap .mo-cena-body .price-description span {
+              font-size: 1.2rem; } }
+          @media screen and (min-width: 1024px) {
+            .mo-cena--body-wrap .mo-cena-body .price-description span {
+              font-size: 1.2rem; } }
   @media screen and (min-width: 1024px) {
     .mo-cena--premium {
       border: 3px solid #ed1e4c; } }
@@ -1257,15 +1270,23 @@ body {
     .cenovnik {
       padding-top: 5rem;
       padding-bottom: 0; } }
-  @media screen and (min-width: 1024px) {
-    .cenovnik .col-01 {
-      width: 46%;
-      margin-right: 8%;
-      float: left; } }
-  @media screen and (min-width: 1024px) {
-    .cenovnik .col-02 {
-      width: 46%;
-      float: left; } }
+  .cenovnik .col-01 {
+    width: 98%;
+    margin: 0 auto; }
+    @media screen and (min-width: 1024px) {
+      .cenovnik .col-01 {
+        margin: 0;
+        width: 46%;
+        margin-right: 8%;
+        float: left; } }
+  .cenovnik .col-02 {
+    width: 98%;
+    margin: 0 auto; }
+    @media screen and (min-width: 1024px) {
+      .cenovnik .col-02 {
+        margin: 0;
+        width: 46%;
+        float: left; } }
 
 .treneri {
   padding-top: 4rem;
@@ -1329,8 +1350,23 @@ body {
     display: flex;
     flex-flow: row nowrap;
     align-items: center; }
+    @media screen and (max-width: 767px) {
+      #kontakt .kontakt-description {
+        font-size: 1.6rem; } }
+    @media screen and (min-width: 768px) {
+      #kontakt .kontakt-description {
+        font-size: 1.6rem; } }
+    @media screen and (min-width: 1024px) {
+      #kontakt .kontakt-description {
+        font-size: 1.6rem; } }
     #kontakt .kontakt-description .body {
       color: white; }
+      #kontakt .kontakt-description .body p {
+        line-height: 2rem; }
+      #kontakt .kontakt-description .body .radno-vreme {
+        width: 55%; }
+        #kontakt .kontakt-description .body .radno-vreme span {
+          float: right; }
     #kontakt .kontakt-description img {
       align-self: flex-start;
       margin-right: 3rem; }

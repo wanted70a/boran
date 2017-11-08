@@ -9,8 +9,10 @@
 	}
 
 	.col-01{
-		
+		width:98%;
+		margin:0 auto;
 		@include breakpoint(desktop){
+			margin:0;
 			width: 46%;
 			margin-right:8%;
 			float:left;
@@ -19,8 +21,10 @@
 	}	
 
 	.col-02{
-		
+		width:98%;
+		margin:0 auto;
 		@include breakpoint(desktop){
+			margin:0;
 			width: 46%;
 			float:left;
 		}

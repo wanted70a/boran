@@ -32,7 +32,7 @@ $(window).load(function(){
 
   function initMap() {
         // Styles a map in night mode.
-		var uluru={lat: 44.80, lng: 20.46};
+		var uluru={lat: 44.809159, lng: 20.483182};
         var map = new google.maps.Map(document.getElementById('map'), {
           center:uluru,
           zoom: 14,

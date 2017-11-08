@@ -26,15 +26,15 @@
 
 		.mo-cena-body{
 			margin:0 auto;
-			width:84%;
+			width:87%;
 			border-left:4px solid $red;
 			padding-left: 5%;
-			padding-right: 6%;
+			padding-right: 5%;
 
 			@include breakpoint(desktop){
-				width:85%;
+				width:87%;
 				padding-left: 5%;
-				padding-right: 6%;
+				padding-right: 5%;
 				border-left:6px solid $red;
 			}
 
@@ -140,6 +140,11 @@
 				
 				@include breakpoint(desktop){
 					line-height: calculateRem(17);
+				}
+
+				& span{
+					display: block;
+					@include fontSize(12,12,12);
 				}
 			}
 		}

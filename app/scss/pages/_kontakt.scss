@@ -35,6 +35,7 @@
 	}
 
 	.kontakt-description{
+		@include fontSize(16,16,16);
 		
 		display: flex;
 		flex-flow: row nowrap;
@@ -48,6 +49,16 @@
 			
 			@include breakpoint(desktop){
 
+			}
+
+			p{
+				line-height: 2rem;
+			}
+			.radno-vreme{
+				width: 55%;
+				span{
+					float:right;
+				}
 			}
 		}
 

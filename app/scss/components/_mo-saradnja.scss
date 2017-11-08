@@ -56,6 +56,7 @@ $numerator-tablet:15vw;
 		color:$gray;
 		margin-bottom:5.5rem;
 		line-height:calculateRem(55);
+		text-transform: uppercase;
 
 		@include breakpoint(desktop){
 			width:66%;
