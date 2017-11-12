@@ -473,10 +473,10 @@ body {
     width: 100%; }
   .hero-content {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
     height: 70%;
     margin: auto;
-    top: 15%;
+    top: 5%;
     left: 5%;
     bottom: 0;
     right: 5%;
@@ -485,7 +485,7 @@ body {
     padding-top: 3rem; }
     @media screen and (min-width: 1024px) {
       .hero-content {
-        top: 15%;
+        top: 5%;
         left: 0;
         bottom: 0;
         right: 0;
@@ -538,19 +538,19 @@ body {
     .hero-body p {
       color: #ffffff;
       margin-top: 1.5rem;
-      line-height: 2rem; }
+      line-height: 2.7rem; }
       @media screen and (max-width: 767px) {
         .hero-body p {
-          font-size: 1.6rem; } }
+          font-size: 1.8rem; } }
       @media screen and (min-width: 768px) {
         .hero-body p {
-          font-size: 1.6rem; } }
+          font-size: 1.8rem; } }
       @media screen and (min-width: 1024px) {
         .hero-body p {
-          font-size: 1.4rem; } }
+          font-size: 1.8rem; } }
       @media screen and (min-width: 1024px) {
         .hero-body p {
-          line-height: 2rem;
+          line-height: 2.7rem;
           margin-top: 1.5rem; } }
   .hero-subtitle {
     color: #ed1e4c;
@@ -612,7 +612,7 @@ body {
   @media screen and (min-width: 1024px) {
     .label--underline {
       padding-bottom: 2rem;
-      margin-top: 12rem; } }
+      margin-top: 2rem; } }
 
 .label--blank {
   font-family: 'Lato', sans-serif;
@@ -640,21 +640,23 @@ body {
   color: #ed1e4c;
   display: inline-block;
   border: 2px solid #ed1e4c;
-  padding: 1rem 2.5rem;
-  margin-bottom: 3rem; }
+  padding: 0 2.5rem;
+  margin-bottom: 3rem;
+  line-height: 3.5rem; }
   @media screen and (max-width: 767px) {
     .label--full-border {
       font-size: 2.8rem; } }
   @media screen and (min-width: 768px) {
     .label--full-border {
-      font-size: 2.6rem; } }
+      font-size: 2.3rem; } }
   @media screen and (min-width: 1024px) {
     .label--full-border {
       font-size: 2.3rem; } }
   @media screen and (min-width: 1024px) {
     .label--full-border {
-      padding: 1rem 3rem;
-      margin-bottom: 2rem; } }
+      padding: 0 3rem;
+      margin-bottom: 2rem;
+      line-height: 4rem; } }
 
 .label--full-color {
   display: block;
@@ -690,8 +692,9 @@ body {
   color: #4c4c4c;
   display: inline-block;
   border: 6px solid #ed1e4c;
-  padding: 1.5rem 2.5rem;
-  margin-top: 6.5rem; }
+  padding: 0 2.5rem;
+  margin-top: 6.5rem;
+  line-height: 6.5rem; }
   @media screen and (max-width: 767px) {
     .label--bold {
       font-size: 3rem; } }
@@ -703,7 +706,7 @@ body {
       font-size: 3rem; } }
   @media screen and (min-width: 1024px) {
     .label--bold {
-      padding: 1.5rem 3.5rem;
+      padding: 0 3.5rem;
       margin-top: 4rem;
       border: 8px solid #ed1e4c; } }
 
@@ -1106,7 +1109,8 @@ body {
           .mo-cena--body-wrap .mo-cena-body .price-description {
             line-height: 1.7rem; } }
         .mo-cena--body-wrap .mo-cena-body .price-description span {
-          display: block; }
+          display: block;
+          margin-top: 0.8rem; }
           @media screen and (max-width: 767px) {
             .mo-cena--body-wrap .mo-cena-body .price-description span {
               font-size: 1.2rem; } }
@@ -1256,8 +1260,8 @@ body {
       font-size: 4.95rem; } }
   @media screen and (min-width: 1024px) {
     .start .section-title {
-      padding-top: 3.5rem;
-      padding-bottom: 3.9rem;
+      padding-top: 3rem;
+      padding-bottom: 3.4rem;
       letter-spacing: 0.05em; } }
   .start .section-title span {
     font-weight: 700; }
@@ -1271,7 +1275,7 @@ body {
       padding-top: 5rem;
       padding-bottom: 0; } }
   .cenovnik .col-01 {
-    width: 98%;
+    width: 96%;
     margin: 0 auto; }
     @media screen and (min-width: 1024px) {
       .cenovnik .col-01 {
@@ -1280,7 +1284,7 @@ body {
         margin-right: 8%;
         float: left; } }
   .cenovnik .col-02 {
-    width: 98%;
+    width: 96%;
     margin: 0 auto; }
     @media screen and (min-width: 1024px) {
       .cenovnik .col-02 {

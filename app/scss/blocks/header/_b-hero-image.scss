@@ -12,16 +12,16 @@
 
 	&-content{
 		position:absolute;
-		background-color:rgba(0,0,0,0.6);
+		background-color:transparent;
 		height:70%;
 		margin: auto;
-  		top: 15%; left: 5%; bottom: 0; right: 5%;
+  		top: 5%; left: 5%; bottom: 0; right: 5%;
   		text-align: center;
   		padding:0 3rem;
   		padding-top:3rem;
   		
   		@include breakpoint(desktop){
-			top: 15%; left: 0; bottom: 0; right: 0;
+			top: 5%; left: 0; bottom: 0; right: 0;
 			padding-top:7rem;
 			width:48%;
 			height:70%;
@@ -64,13 +64,13 @@
 		}
 
 		p{
-			@include fontSize(16,16,14);
+			@include fontSize(18,18,18);
 			color:$white;
 			margin-top:1.5rem;
-			line-height:calculateRem(20);
+			line-height:calculateRem(27);
 
 			@include breakpoint(desktop){
-				line-height:calculateRem(20);
+				line-height:calculateRem(27);
 				margin-top:1.5rem;
 			}	
 		}
