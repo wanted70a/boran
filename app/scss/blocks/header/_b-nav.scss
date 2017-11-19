@@ -1,6 +1,6 @@
 .nav{
 	margin:0 auto;
-	background-color:rgba(0,0,0,1);
+	background-color:rgba(0,0,0,0.8);
 	color:$white;
 	//height: $header-height-mobile;
 	position:fixed;
@@ -14,7 +14,7 @@
 		height: $header-height-desktop;
 		padding:0 15%;
 		padding-top:2rem;
-		background-color:rgba(0, 0, 0, 0.95);
+		background-color:rgba(0, 0, 0, 0.8);
 	}
 
 	.logo{
@@ -41,7 +41,7 @@
 		display: block;
 		position: fixed;
 		z-index:1;
-		top:9rem;
+		top:10.1rem;
 		left:55%;
 		right:0;
 		background-color:black;
@@ -50,6 +50,7 @@
 		//margin-top: 9rem;
 		transition: all 0.5s ease;
 		transform:translateX(100%);
+		background-color:rgba(0,0,0,0.8);
 		//opacity: 0;
 
 		@include breakpoint(desktop){

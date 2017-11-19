@@ -326,7 +326,7 @@ body {
 
 .nav {
   margin: 0 auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #ffffff;
   position: fixed;
   top: 0;
@@ -339,7 +339,7 @@ body {
       height: 9.2rem;
       padding: 0 15%;
       padding-top: 2rem;
-      background-color: rgba(0, 0, 0, 0.95); } }
+      background-color: rgba(0, 0, 0, 0.8); } }
   .nav .logo {
     display: block;
     float: none;
@@ -358,14 +358,15 @@ body {
     display: block;
     position: fixed;
     z-index: 1;
-    top: 9rem;
+    top: 10.1rem;
     left: 55%;
     right: 0;
     background-color: black;
     color: white;
     padding-left: 4rem;
     transition: all 0.5s ease;
-    transform: translateX(100%); }
+    transform: translateX(100%);
+    background-color: rgba(0, 0, 0, 0.8); }
     @media screen and (min-width: 1024px) {
       .nav .navigacija {
         display: block;
@@ -538,19 +539,19 @@ body {
     .hero-body p {
       color: #ffffff;
       margin-top: 1.5rem;
-      line-height: 2.7rem; }
+      line-height: 2.9rem; }
       @media screen and (max-width: 767px) {
         .hero-body p {
-          font-size: 1.8rem; } }
+          font-size: 1.9rem; } }
       @media screen and (min-width: 768px) {
         .hero-body p {
-          font-size: 1.8rem; } }
+          font-size: 1.9rem; } }
       @media screen and (min-width: 1024px) {
         .hero-body p {
-          font-size: 1.8rem; } }
+          font-size: 1.9rem; } }
       @media screen and (min-width: 1024px) {
         .hero-body p {
-          line-height: 2.7rem;
+          line-height: 2.9rem;
           margin-top: 1.5rem; } }
   .hero-subtitle {
     color: #ed1e4c;
@@ -598,7 +599,7 @@ body {
   color: #4c4c4c;
   display: inline-block;
   border-bottom: 1px solid #4c4c4c;
-  margin-top: 6rem;
+  margin-top: 2rem;
   padding-bottom: 2rem; }
   @media screen and (max-width: 767px) {
     .label--underline {
@@ -1366,14 +1367,33 @@ body {
     #kontakt .kontakt-description .body {
       color: white; }
       #kontakt .kontakt-description .body p {
-        line-height: 2rem; }
+        line-height: 3.5rem; }
+        @media screen and (max-width: 767px) {
+          #kontakt .kontakt-description .body p {
+            font-size: 2.8rem; } }
+        @media screen and (min-width: 768px) {
+          #kontakt .kontakt-description .body p {
+            font-size: 1.4rem; } }
+        @media screen and (min-width: 1024px) {
+          #kontakt .kontakt-description .body p {
+            font-size: 2rem; } }
+        @media screen and (min-width: 1024px) {
+          #kontakt .kontakt-description .body p {
+            line-height: 2.7rem; } }
       #kontakt .kontakt-description .body .radno-vreme {
-        width: 55%; }
+        width: 100%; }
+        @media screen and (min-width: 1024px) {
+          #kontakt .kontakt-description .body .radno-vreme {
+            width: 75%; } }
         #kontakt .kontakt-description .body .radno-vreme span {
           float: right; }
     #kontakt .kontakt-description img {
       align-self: flex-start;
-      margin-right: 3rem; }
+      margin-right: 3rem;
+      width: 15%; }
+      @media screen and (min-width: 1024px) {
+        #kontakt .kontakt-description img {
+          width: 40%; } }
   #kontakt .inner {
     padding: 0 4rem; }
   #kontakt .col-01 {

@@ -64,13 +64,13 @@
 		}
 
 		p{
-			@include fontSize(18,18,18);
+			@include fontSize(19,19,19);
 			color:$white;
 			margin-top:1.5rem;
-			line-height:calculateRem(27);
+			line-height:calculateRem(29);
 
 			@include breakpoint(desktop){
-				line-height:calculateRem(27);
+				line-height:calculateRem(29);
 				margin-top:1.5rem;
 			}	
 		}
