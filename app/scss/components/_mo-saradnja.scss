@@ -12,15 +12,15 @@ $numerator-tablet:15vw;
 	}
 
 	.container-01{
-		
+
 		width:100%;
-		
+
 		@include breakpoint(desktop){
 			width:50%;
 			//float:right;
 		}
 	}
-	
+
 	.container-02{
 		position:relative;
 		width:100%;
@@ -88,11 +88,22 @@ $numerator-tablet:15vw;
 		margin:0 auto;
 		margin-bottom: 2rem;
 		line-height:calculateRem(32);
-		
+
 		@include breakpoint(desktop){
 			line-height:calculateRem(20);
 			width:77%;
 			margin-bottom: 2rem;
+		}
+
+		&--special{
+			text-transform: uppercase;
+		}
+
+		&--double-line{
+			margin-bottom: 4rem;
+			@include breakpoint(desktop){
+				margin-bottom: 4rem;
+			}
 		}
 	}
 	.saradnja-img{
@@ -117,15 +128,15 @@ $numerator-tablet:15vw;
 		width:$numerator-mob;
 		height:$numerator-mob;
 		left:calc(50% - 13vw);
-		
+
 		@include breakpoint(tablet){
 			width:$numerator-tablet;
 			height:$numerator-tablet;
 			bottom:-7.5vw;
 			left:calc(50% - 7.5vw);
-			
+
 		}
-		
+
 		@include breakpoint(desktop){
 			width:$numerator;
 			height:$numerator;
@@ -135,18 +146,18 @@ $numerator-tablet:15vw;
 		}
 
 		&--inverse{
-			
+
 			@include breakpoint(desktop){
 				right:-$numerator/2;
-			}	
+			}
 		}
 
 		&--normal{
 			@include breakpoint(desktop){
 				left:-$numerator/2
-			}	
+			}
 
-			
+
 		}
 
 		p{
@@ -159,7 +170,7 @@ $numerator-tablet:15vw;
 			}
 
 			@include breakpoint(desktop){
-			
+
 			line-height:$numerator;
 			}
 		}

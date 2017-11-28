@@ -477,7 +477,7 @@ body {
     background-color: transparent;
     height: 70%;
     margin: auto;
-    top: 5%;
+    top: 0;
     left: 5%;
     bottom: 0;
     right: 5%;
@@ -566,10 +566,10 @@ body {
         font-size: 1.6rem; } }
     @media screen and (min-width: 1024px) {
       .hero-subtitle {
-        font-size: 2rem; } }
+        font-size: 2.5rem; } }
     @media screen and (min-width: 1024px) {
       .hero-subtitle {
-        line-height: 1.9rem;
+        line-height: 2.5rem;
         margin-top: 2.2rem; } }
 
 .label--hero {
@@ -643,7 +643,7 @@ body {
   border: 2px solid #ed1e4c;
   padding: 0 2.5rem;
   margin-bottom: 3rem;
-  line-height: 3.5rem; }
+  line-height: 5.2rem; }
   @media screen and (max-width: 767px) {
     .label--full-border {
       font-size: 2.8rem; } }
@@ -657,7 +657,7 @@ body {
     .label--full-border {
       padding: 0 3rem;
       margin-bottom: 2rem;
-      line-height: 4rem; } }
+      line-height: 4.6rem; } }
 
 .label--full-color {
   display: block;
@@ -819,6 +819,13 @@ body {
         line-height: 2rem;
         width: 77%;
         margin-bottom: 2rem; } }
+    .mo-saradnja .saradnja-text--special {
+      text-transform: uppercase; }
+    .mo-saradnja .saradnja-text--double-line {
+      margin-bottom: 4rem; }
+      @media screen and (min-width: 1024px) {
+        .mo-saradnja .saradnja-text--double-line {
+          margin-bottom: 4rem; } }
   .mo-saradnja .saradnja-img {
     position: relative; }
     .mo-saradnja .saradnja-img img {
@@ -1391,9 +1398,6 @@ body {
       align-self: flex-start;
       margin-right: 3rem;
       width: 15%; }
-      @media screen and (min-width: 1024px) {
-        #kontakt .kontakt-description img {
-          width: 40%; } }
   #kontakt .inner {
     padding: 0 4rem; }
   #kontakt .col-01 {
