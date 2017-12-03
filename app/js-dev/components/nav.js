@@ -1,7 +1,7 @@
 $(window).load(function(){
 	var $nav = $('.navigacija');//kesiranje elementa koji se ponavlja
 	var $burger = $('.burger').find('i');
-	var $offset = $('nav').outerHeight();
+	var $offset = $('nav').outerHeight()-1;
 	//caching nav height for scroll top offset
 
 	//smooth scroll
@@ -29,4 +29,9 @@ $(window).load(function(){
 		$burger.toggleClass('fa-bars').toggleClass('fa-times');
 		$nav.toggleClass('drop-down-active');
 	});
+
+	//Align menu with Nav outerHeight
+	var $navHeight = $('nav').outerHeight();
+	console.log($navHeight);
+	$('.navigacija').css({'top':$navHeight});
 });

@@ -353,7 +353,7 @@ body {
       max-width: 50%; }
       @media screen and (min-width: 1024px) {
         .nav .logo img {
-          max-width: 100%; } }
+          max-width: 88%; } }
   .nav .navigacija {
     display: block;
     position: fixed;
@@ -380,7 +380,7 @@ body {
   .nav .burger {
     position: absolute;
     right: 2rem;
-    top: 3rem;
+    top: 2.65rem;
     transition: all 0.3s ease; }
     @media screen and (max-width: 767px) {
       .nav .burger {
@@ -402,7 +402,7 @@ body {
   margin-bottom: 2rem; }
   @media screen and (min-width: 1024px) {
     .links.links--nav {
-      margin-left: 9.5rem;
+      margin-left: 15rem;
       padding-top: 0rem;
       margin-bottom: 0rem;
       float: left; } }
@@ -483,14 +483,14 @@ body {
     right: 5%;
     text-align: center;
     padding: 0 3rem;
-    padding-top: 3rem; }
+    padding-top: 6rem; }
     @media screen and (min-width: 1024px) {
       .hero-content {
         top: 5%;
         left: 0;
         bottom: 0;
         right: 0;
-        padding-top: 7rem;
+        padding-top: 4rem;
         width: 48%;
         height: 70%;
         margin: auto;
@@ -538,21 +538,21 @@ body {
         padding-top: 2.5rem; } }
     .hero-body p {
       color: #ffffff;
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
       line-height: 2.9rem; }
       @media screen and (max-width: 767px) {
         .hero-body p {
-          font-size: 1.9rem; } }
+          font-size: 2rem; } }
       @media screen and (min-width: 768px) {
         .hero-body p {
-          font-size: 1.9rem; } }
+          font-size: 2rem; } }
       @media screen and (min-width: 1024px) {
         .hero-body p {
-          font-size: 1.9rem; } }
+          font-size: 2rem; } }
       @media screen and (min-width: 1024px) {
         .hero-body p {
           line-height: 2.9rem;
-          margin-top: 1.5rem; } }
+          margin-top: 2.2rem; } }
   .hero-subtitle {
     color: #ed1e4c;
     font-weight: 700;
@@ -566,7 +566,7 @@ body {
         font-size: 1.6rem; } }
     @media screen and (min-width: 1024px) {
       .hero-subtitle {
-        font-size: 2.5rem; } }
+        font-size: 3rem; } }
     @media screen and (min-width: 1024px) {
       .hero-subtitle {
         line-height: 2.5rem;
@@ -595,7 +595,7 @@ body {
     .label--hero {
       padding: 0 1.2rem;
       letter-spacing: 0.05em;
-      line-height: 2.2rem; } }
+      line-height: 4.2rem; } }
 
 .label--underline {
   font-family: 'Playfair Display', serif;
@@ -828,11 +828,20 @@ body {
         margin-bottom: 2rem; } }
     .mo-saradnja .saradnja-text--special {
       text-transform: uppercase; }
+      @media screen and (max-width: 767px) {
+        .mo-saradnja .saradnja-text--special {
+          font-size: 2.4rem; } }
+      @media screen and (min-width: 768px) {
+        .mo-saradnja .saradnja-text--special {
+          font-size: 1.8rem; } }
+      @media screen and (min-width: 1024px) {
+        .mo-saradnja .saradnja-text--special {
+          font-size: 2rem; } }
     .mo-saradnja .saradnja-text--double-line {
-      margin-bottom: 4rem; }
+      margin-bottom: 6rem; }
       @media screen and (min-width: 1024px) {
         .mo-saradnja .saradnja-text--double-line {
-          margin-bottom: 4rem; } }
+          margin-bottom: 6rem; } }
   .mo-saradnja .saradnja-img {
     position: relative; }
     .mo-saradnja .saradnja-img img {

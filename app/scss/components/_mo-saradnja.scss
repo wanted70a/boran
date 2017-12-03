@@ -97,12 +97,14 @@ $numerator-tablet:15vw;
 
 		&--special{
 			text-transform: uppercase;
+			@include fontSize(24,18,20);
+
 		}
 
 		&--double-line{
-			margin-bottom: 4rem;
+			margin-bottom: 6rem;
 			@include breakpoint(desktop){
-				margin-bottom: 4rem;
+				margin-bottom: 6rem;
 			}
 		}
 	}
