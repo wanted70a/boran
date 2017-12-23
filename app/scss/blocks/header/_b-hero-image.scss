@@ -12,23 +12,15 @@
 
 	&-content{
 		position:absolute;
+		position: absolute;
+      left: 50%;
+      top: 54.5%;
+      transform: translate(-50%,-50%);
+      width: 100%;
 		background-color:transparent;
-		height:70%;
 		margin: auto;
-  		top: 0; left: 5%; bottom: 0; right: 5%;
-  		text-align: center;
+  		 text-align: center;
   		padding:0 3rem;
-  		padding-top:6rem;
-
-  		@include breakpoint(desktop){
-			top: 5%; left: 0; bottom: 0; right: 0;
-			padding-top:4rem;
-			width:48%;
-			height:70%;
-			margin: auto;
-			background-color:transparent;
-		}
-
 	}
 
 	&-title{
