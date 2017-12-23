@@ -560,10 +560,10 @@ body {
     margin-top: 2.5rem; }
     @media screen and (max-width: 767px) {
       .hero-subtitle {
-        font-size: 1.6rem; } }
+        font-size: 3rem; } }
     @media screen and (min-width: 768px) {
       .hero-subtitle {
-        font-size: 1.6rem; } }
+        font-size: 3rem; } }
     @media screen and (min-width: 1024px) {
       .hero-subtitle {
         font-size: 3rem; } }
@@ -572,151 +572,164 @@ body {
         line-height: 2.5rem;
         margin-top: 2.2rem; } }
 
-.label--hero {
-  color: #ffffff;
-  border: 3px solid #ffffff;
-  display: inline-block;
-  padding: 0 1.2rem;
-  letter-spacing: 0.05em;
-  line-height: 4rem; }
-  @media screen and (max-width: 767px) {
-    .label--hero {
-      font-size: 2.4rem; } }
-  @media screen and (min-width: 768px) {
-    .label--hero {
-      font-size: 2.8rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--hero {
-      font-size: 1.8rem; } }
-  @media screen and (min-width: 768px) {
-    .label--hero {
-      line-height: 5rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--hero {
-      padding: 0 1.2rem;
-      letter-spacing: 0.05em;
-      line-height: 4.2rem; } }
-
-.label--underline {
-  font-family: 'Playfair Display', serif;
+.label {
+  font-family: 'Roboto', serif;
   font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #4c4c4c;
   display: inline-block;
-  border-bottom: 1px solid #4c4c4c;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-bottom: 2rem; }
   @media screen and (max-width: 767px) {
-    .label--underline {
+    .label {
       font-size: 3.2rem; } }
   @media screen and (min-width: 768px) {
-    .label--underline {
+    .label {
       font-size: 2.6rem; } }
   @media screen and (min-width: 1024px) {
-    .label--underline {
+    .label {
       font-size: 3.2rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--underline {
-      padding-bottom: 2rem;
-      margin-top: 2rem; } }
-
-.label--blank {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 0.02em;
-  color: #4c4c4c;
-  font-weight: 700; }
-  @media screen and (max-width: 767px) {
-    .label--blank {
-      font-size: 2.2rem; } }
-  @media screen and (min-width: 768px) {
-    .label--blank {
-      font-size: 1.6rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--blank {
-      font-size: 1.8rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--blank {
-      letter-spacing: 0.02em;
-      color: #4c4c4c; } }
-
-.label--full-border {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: #ed1e4c;
-  display: inline-block;
-  border: 2px solid #ed1e4c;
-  padding: 0 2.5rem;
-  margin-bottom: 3rem;
-  line-height: 5.2rem; }
-  @media screen and (max-width: 767px) {
-    .label--full-border {
-      font-size: 2.8rem; } }
-  @media screen and (min-width: 768px) {
-    .label--full-border {
-      font-size: 2.3rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--full-border {
-      font-size: 2.3rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--full-border {
-      padding: 0 3rem;
-      margin-bottom: 2rem;
-      line-height: 4.6rem; } }
-
-.label--full-color {
-  display: block;
-  background-color: #ed1e4c;
-  color: #ffffff;
-  width: 95%;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
-  line-height: 5.5rem;
-  letter-spacing: 0.25em; }
-  @media screen and (max-width: 767px) {
-    .label--full-color {
-      font-size: 3rem; } }
-  @media screen and (min-width: 768px) {
-    .label--full-color {
-      font-size: 2.6rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--full-color {
-      font-size: 2.2rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--full-color {
-      margin: 0 auto;
-      padding: 0 1.5rem;
-      margin-bottom: 2.5rem;
-      width: 60%;
-      line-height: 5rem; } }
-
-.label--bold {
-  font-family: 'Playfair Display', serif;
-  font-weight: 900;
-  letter-spacing: 0.025em;
-  color: #4c4c4c;
-  display: inline-block;
-  border: 6px solid #ed1e4c;
-  padding: 0 2.5rem;
-  margin-top: 6.5rem;
-  line-height: 6.5rem; }
-  @media screen and (max-width: 767px) {
-    .label--bold {
-      font-size: 3rem; } }
-  @media screen and (min-width: 768px) {
-    .label--bold {
-      font-size: 2.6rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--bold {
-      font-size: 3rem; } }
-  @media screen and (min-width: 1024px) {
-    .label--bold {
-      padding: 0 3.5rem;
-      margin-top: 4rem;
-      border: 8px solid #ed1e4c; } }
+  .label--hero {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    padding: 0 1.2rem;
+    letter-spacing: 0.05em;
+    line-height: 4rem; }
+    @media screen and (max-width: 767px) {
+      .label--hero {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 768px) {
+      .label--hero {
+        font-size: 2.8rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--hero {
+        font-size: 1.8rem; } }
+    @media screen and (min-width: 768px) {
+      .label--hero {
+        line-height: 5rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--hero {
+        padding: 0 1.2rem;
+        letter-spacing: 0.05em;
+        line-height: 4.2rem; } }
+  .label--underline {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #4c4c4c;
+    display: inline-block;
+    border-bottom: 1px solid #4c4c4c;
+    margin-top: 2rem;
+    padding-bottom: 2rem; }
+    @media screen and (max-width: 767px) {
+      .label--underline {
+        font-size: 3.2rem; } }
+    @media screen and (min-width: 768px) {
+      .label--underline {
+        font-size: 2.6rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--underline {
+        font-size: 3.2rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--underline {
+        padding-bottom: 2rem;
+        margin-top: 2rem; } }
+  .label--blank {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.02em;
+    color: #4c4c4c;
+    font-weight: 700; }
+    @media screen and (max-width: 767px) {
+      .label--blank {
+        font-size: 2.2rem; } }
+    @media screen and (min-width: 768px) {
+      .label--blank {
+        font-size: 1.6rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--blank {
+        font-size: 1.8rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--blank {
+        letter-spacing: 0.02em;
+        color: #4c4c4c; } }
+  .label--full-border {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #ed1e4c;
+    display: inline-block;
+    border: 2px solid #ed1e4c;
+    padding: 0 2.5rem;
+    margin-bottom: 3rem;
+    line-height: 5.2rem; }
+    @media screen and (max-width: 767px) {
+      .label--full-border {
+        font-size: 2.8rem; } }
+    @media screen and (min-width: 768px) {
+      .label--full-border {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--full-border {
+        font-size: 2.3rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--full-border {
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+        line-height: 4.6rem; } }
+  .label--full-color {
+    display: block;
+    background-color: #ed1e4c;
+    color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    line-height: 5.5rem;
+    letter-spacing: 0.25em; }
+    @media screen and (max-width: 767px) {
+      .label--full-color {
+        font-size: 3rem; } }
+    @media screen and (min-width: 768px) {
+      .label--full-color {
+        font-size: 2.6rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--full-color {
+        font-size: 2.2rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--full-color {
+        margin: 0 auto;
+        padding: 0 1.5rem;
+        margin-bottom: 2.5rem;
+        width: 60%;
+        line-height: 5rem; } }
+  .label--bold {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #4c4c4c;
+    display: inline-block;
+    border: 6px solid #ed1e4c;
+    padding: 0 2.5rem;
+    margin-top: 6.5rem;
+    line-height: 6.5rem; }
+    @media screen and (max-width: 767px) {
+      .label--bold {
+        font-size: 3rem; } }
+    @media screen and (min-width: 768px) {
+      .label--bold {
+        font-size: 2.6rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--bold {
+        font-size: 3rem; } }
+    @media screen and (min-width: 1024px) {
+      .label--bold {
+        padding: 0 3.5rem;
+        margin-top: 4rem;
+        border: 8px solid #ed1e4c; } }
 
 .mo-saradnja {
   position: relative;

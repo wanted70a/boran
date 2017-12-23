@@ -32,7 +32,7 @@ $(window).load(function(){
 
 	//Align menu with Nav outerHeight
 	var $navHeight = $('nav').outerHeight();
-	console.log($navHeight);
+	//console.log($navHeight);
 	$('.navigacija').css({'top':$navHeight});
 });
 
