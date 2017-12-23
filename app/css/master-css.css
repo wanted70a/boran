@@ -353,7 +353,7 @@ body {
       max-width: 50%; }
       @media screen and (min-width: 1024px) {
         .nav .logo img {
-          max-width: 88%; } }
+          max-width: 100%; } }
   .nav .navigacija {
     display: block;
     position: fixed;
