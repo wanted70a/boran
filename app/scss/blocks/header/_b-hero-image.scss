@@ -14,13 +14,17 @@
 		position:absolute;
 		position: absolute;
       left: 50%;
-      top: 54.5%;
+      top: 55%;
       transform: translate(-50%,-50%);
       width: 100%;
 		background-color:transparent;
 		margin: auto;
-  		 text-align: center;
+  		text-align: center;
   		padding:0 3rem;
+
+		@include breakpoint(desktop){
+		  top: 53.5%;
+		}
 	}
 
 	&-title{
@@ -69,7 +73,7 @@
 	}
 
 	&-subtitle{
-		@include fontSize(30,30,30);
+		@include fontSize(28,30,30);
 		color:$red;
 		font-weight:700;
 		letter-spacing:-0.01em;
