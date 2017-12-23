@@ -500,7 +500,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     letter-spacing: 0.01em;
-    margin-top: 2.4rem; }
+    margin-top: 2.5rem; }
     @media screen and (max-width: 767px) {
       .hero-title {
         font-size: 3.2rem; } }
@@ -529,30 +529,28 @@ body {
         .hero-title span {
           display: block;
           margin-top: 0.7rem; } }
-  .hero-body {
-    padding-top: 2.5rem; }
+  @media screen and (min-width: 1024px) {
+    .hero-body {
+      width: 87%;
+      margin: 0 auto;
+      padding-top: 2.5rem; } }
+  .hero-body p {
+    color: #ffffff;
+    margin-top: 2.5rem;
+    line-height: 2.9rem; }
+    @media screen and (max-width: 767px) {
+      .hero-body p {
+        font-size: 2rem; } }
+    @media screen and (min-width: 768px) {
+      .hero-body p {
+        font-size: 2rem; } }
     @media screen and (min-width: 1024px) {
-      .hero-body {
-        width: 87%;
-        margin: 0 auto;
-        padding-top: 2.5rem; } }
-    .hero-body p {
-      color: #ffffff;
-      margin-top: 2.5rem;
-      line-height: 2.9rem; }
-      @media screen and (max-width: 767px) {
-        .hero-body p {
-          font-size: 2rem; } }
-      @media screen and (min-width: 768px) {
-        .hero-body p {
-          font-size: 2rem; } }
-      @media screen and (min-width: 1024px) {
-        .hero-body p {
-          font-size: 2rem; } }
-      @media screen and (min-width: 1024px) {
-        .hero-body p {
-          line-height: 2.9rem;
-          margin-top: 2.2rem; } }
+      .hero-body p {
+        font-size: 2rem; } }
+    @media screen and (min-width: 1024px) {
+      .hero-body p {
+        line-height: 2.9rem;
+        margin-top: 2.2rem; } }
   .hero-subtitle {
     color: #ed1e4c;
     font-weight: 700;

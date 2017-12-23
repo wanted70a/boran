@@ -37,7 +37,7 @@
 		font-family: 'Playfair Display', serif;
 		font-weight: 700;
 		letter-spacing: 0.01em;
-		margin-top:2.4rem;
+		margin-top:2.5rem;
 
 		@include breakpoint(desktop){
 			margin-top:2.4rem;
@@ -56,7 +56,7 @@
 	}
 
 	&-body{
-		padding-top:2.5rem;
+		//padding-top:2.5rem;
 		@include breakpoint(desktop){
 			width:87%;
 			margin:0 auto;
